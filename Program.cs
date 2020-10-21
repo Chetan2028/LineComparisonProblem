@@ -18,7 +18,7 @@ namespace LineComparison
         /// <param name="y4">The y4.</param>
         public void CheckingEqualityofLines(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4,double length1 , double length2)
         {
-            if(length1 == length2)
+            if(length1.Equals(length2))
             {
                 Console.WriteLine("Line1 and Line2 are equal");
             }
