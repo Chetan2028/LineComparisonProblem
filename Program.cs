@@ -39,7 +39,7 @@ namespace LineComparison
             }
             else
             {
-                Console.WriteLine("Line1 and Line2 are not equal");
+                Console.WriteLine("Line1 and Line2 are not equal");  
             }
         }
         /// <summary>
